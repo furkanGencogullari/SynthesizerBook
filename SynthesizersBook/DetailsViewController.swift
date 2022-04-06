@@ -21,6 +21,9 @@ class DetailsViewController: UIViewController {
         titleLabel.text = selectedSynth?.name
         descriptionTextView.text = selectedSynth?.description
         
+        descriptionTextView.isEditable = false
+        descriptionTextView.isSelectable = false
+        
     }
 
 }
